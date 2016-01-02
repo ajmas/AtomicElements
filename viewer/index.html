@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title>Periodic Table</title>
+
+  <style type="text/css">
+      html {
+         font-family: sans-serif;      
+      }
+      
+      h1 {
+         text-align: center;
+      }
+      
+      #periodictable {
+         width: 1024px;
+         height: 600px;
+         margin: 0 auto;
+      }
+      
+      .row {      
+           white-space : nowrap; 
+      }
+      
+      .gridElement {
+           width: 40px;
+           height: 40px;     
+           display: inline-block; 
+           border: 1px solid white;   
+           margin-right: -1px;
+           margin-bottom: -1px;              
+      }
+      
+      .atomicElement {
+           border: 1px solid black;      
+           background: #eeeeff;  
+           stroke: black; 
+           fill: white;            
+      }
+      
+      #details {
+           position: absolute;
+           left: 200px;
+           top: 200px;
+           color: white;
+           background-color: rgba(0,0,0,0.8);
+           padding: 10px;
+           border-radius: 5px;
+           display: none;
+      }
+      
+      #footer {
+           margin: 0 auto;
+           text-align: center;
+      }
+      
+      #footer img {
+           border: none;
+      }
+
+  </style>
+
+  <script type="text/javascript" src="js/snap.svg-min.js"></script>  
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>  
+  
+  <script type="text/javascript" src="js/elements.js"></script>
+  <script type="text/javascript" src="js/periodic-table-layout.js"></script>
+  <script type="text/javascript" src="js/periodic-table.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready( function () { 
+          drawTable('periodictable');  
+      });      
+  </script>
+  
+</head>
+
+<body>
+  <h1>Periodic Table of Elements</h1>
+  
+
+  <div id="periodictable"></div>
+  
+  <div id="footer"><a href="http://github.com/ajmas/AtomicElements"><img src="img/GitHub-Mark-64px.png"/></a></div>
+  <div id="details">
+  Hydrogen<br/>
+  xyz<br/>
+  def
+  </div>
+</body>
+
+</html>
+
