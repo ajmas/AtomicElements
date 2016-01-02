@@ -136,13 +136,13 @@ function drawTable (htmlElementId) {
                         atomicWeight: elements[atomicNumber].atomicWeight
                     };
 
-                 createIdealBox(snap, offsetX, offsetY, cellWidth, cellHeight, elementInfo);
+                 drawElement(snap, offsetX, offsetY, cellWidth, cellHeight, elementInfo);
              } else {
                  var elementInfo = {
                         symbol: periodicTableLayout[i][j].trim(),
                     };
 
-                 createIdealBox(snap, offsetX, offsetY, cellWidth, cellHeight, elementInfo);
+                 drawElement(snap, offsetX, offsetY, cellWidth, cellHeight, elementInfo);
              }
           }
 
