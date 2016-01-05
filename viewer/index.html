@@ -1,64 +1,13 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title>Periodic Table</title>
+ 
+  <meta charset="UTF-8" />
 
-  <style type="text/css">
-      html {
-         font-family: sans-serif;      
-      }
-      
-      h1 {
-         text-align: center;
-      }
-      
-      #periodictable {
-         width: 1024px;
-         height: 600px;
-         margin: 0 auto;
-      }
-      
-      .row {      
-           white-space : nowrap; 
-      }
-      
-      .gridElement {
-           width: 40px;
-           height: 40px;     
-           display: inline-block; 
-           border: 1px solid white;   
-           margin-right: -1px;
-           margin-bottom: -1px;              
-      }
-      
-      .atomicElement {
-           border: 1px solid black;      
-           background: #eeeeff;  
-           stroke: black; 
-           fill: white;            
-      }
-      
-      #details {
-           position: absolute;
-           left: 200px;
-           top: 200px;
-           color: white;
-           background-color: rgba(0,0,0,0.8);
-           padding: 10px;
-           border-radius: 5px;
-           display: none;
-      }
-      
-      #footer {
-           margin: 0 auto;
-           text-align: center;
-      }
-      
-      #footer img {
-           border: none;
-      }
-
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="css/families.css"/>
+  
   <script type="text/javascript" src="js/snap.svg-min.js"></script>  
   <script type="text/javascript" src="js/jquery-1.11.2.js"></script>  
   
@@ -75,10 +24,123 @@
 </head>
 
 <body>
+
+  <img src="img/settings.png" class="settingsIcon"/>
+  
   <h1>Periodic Table of Elements</h1>
   
 
   <div id="periodictable"></div>
+  
+  <div id="legend">
+     <div class="closeView"><img src="img/close.png" style="width: 16px;"/></div>  
+      <h3>Legend</h3>
+      <ul class="family">
+         <li><div class="family alkalimetal"></div>Alkali Metal</li> 
+         <li><div class="family alkalineearth"></div>Alkaline Earth</li> 
+         <li><div class="family transitionmetal"></div>Transition Metal</li> 
+
+         <li><div class="family basicmetal"></div>Basic Metal</li> 
+         <li><div class="family metalloid"></div>Metalloid</li> 
+         <li><div class="family nonmetal"></div>Non Metal</li> 
+
+         <li><div class="family halogen"></div>Halogen</li> 
+         <li><div class="family noblegas"></div>Noble Gas</li> 
+         <li><div class="family lanthanide"></div>Lanthanide</li> 
+
+         <li><div class="family actinide"></div>Actinide</li> 
+
+      </ul>
+  </div>
+  
+  <div id="elementDetails">
+     <div class="closeView"><img src="img/close.png" style="width: 16px;"/></div>
+     <h3>Element Details</h3>
+     <div class="content"></div>
+  </div>
+  
+  <div id="settings">
+  <img src="img/settings.png" style="width: 20px; top: 10px; left: 10px; position: absolute"/>
+  
+     <h2>Settings</h2>
+     <label>Display Mode:</label>
+     <select>
+        <option>No colour</option>
+        <option>Coloured families</option>
+     </select>
+     
+     <h3>Filters</h3>
+       <div class="row">     
+       <label>Filter behaviour: </label>
+		<select>
+		   <option>show only results</option>
+		   <option>highlight results</option>
+		</select>
+		</div>   
+       <div class="row">
+       <input type="checkbox"/> <label>Discovery Period: </label>
+          <select>
+             <option>before</option>
+             <option>during</option>
+             <option>after</option>
+          </select>
+          
+		<select>
+		   <option>Ancient times</option>
+		   <option>18th Century</option>
+		   <option>19th Century</option>
+		   <option>20th Century</option>
+		</select>    
+		</div>
+		
+	  <div class="row">
+      <input type="checkbox"/> <label>Atomic Weight: </label>
+      <input type="text" size="6"/> - 
+      <input type="text" size="6"/>      
+      </div>
+		
+	<div class="row">
+	<input type="checkbox"/> <label>Atomic Number: </label>
+	<input type="text" size="6"/> - 
+	<input type="text" size="6"/>  	
+	</div>
+
+	<div class="row">	
+	<input type="checkbox"/> <label>Atomic Radius: </label>
+	<input type="text" size="6"/> - 
+	<input type="text" size="6"/>      
+	</div>
+	
+	<div class="row">	
+	<input type="checkbox"/> <label>Covalent Radius: </label>
+	<input type="text" size="6"/> - 
+	<input type="text" size="6"/>      
+	</div>
+	
+<div class="row">	
+<input type="checkbox"/> <label>Melting Point: </label>
+<input type="text" size="6"/> - 
+<input type="text" size="6"/> °C     
+</div>
+
+<div class="row">	
+<input type="checkbox"/> <label>Boiling Point: </label>
+<input type="text" size="6"/> - 
+<input type="text" size="6"/> °C  
+</div>
+	
+	<div class="row">
+	<input type="checkbox"/> <label>Radioactive: </label>
+<select>
+   <option>Yes</option>
+   <option>No</option>
+</select>	
+	</div>
+		  
+<div class="row">
+<input type="checkbox"/> <label>New IUPAC Group: </label>
+</div>		                               
+  </div>
   
   <div id="footer"><a href="http://github.com/ajmas/AtomicElements"><img src="img/GitHub-Mark-64px.png"/></a></div>
   <div id="details">
