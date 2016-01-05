@@ -1,0 +1,51 @@
+.alkalimetal {
+	fill: #f6ab92;
+	stroke: #f6ab92;
+	background: #f6ab92;
+}
+
+.alkalineearth {
+	fill: #fcd090;	
+	background: #fcd090;	
+}
+
+.transitionmetal {
+	fill: #f5f199;
+	background: #f5f199		
+}
+
+.basicmetal {
+	fill: #a8d49a;
+	background: #a8d49a;		
+}
+
+.metalloid {
+	fill: #a7dce5;
+	background: #a7dce5;		
+}
+
+.nonmetal {
+	fill: #9facd5;
+	stroke: #9facd5;	
+	background: #9facd5;	
+}
+
+.halogen {
+	fill: #af9bc9;
+	background: #af9bc9;		
+}
+
+.noblegas {
+	fill: #cb9fc9;
+	background: #cb9fc9;
+}
+
+.lanthanide {
+	fill: #cb9fc9;
+	background: #cb9fc9;		
+}
+
+.actinide {
+	fill: #e1a9cb;
+	background: #e1a9cb;	
+}

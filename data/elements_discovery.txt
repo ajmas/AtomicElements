@@ -1,0 +1,116 @@
+time_period	year	atomic_number	element_name	discoverer
+antiquity		6	Carbon	
+antiquity		16	Sulphur	
+antiquity		26	Iron	
+antiquity		29	Copper	
+antiquity		47	Silver	
+antiquity		50	Tin	
+antiquity		79	Gold	
+antiquity		80	Mercury	
+antiquity		82	Lead	
+middle ages		33	Arsenic	
+middle ages		51	Antimony	
+middle ages		83	Bismuth	
+17th Century	1669	15	Phosphorus	Band
+18th Century	1735	27	Cobalt	Brandt
+18th Century	1735	78	Platinum	Ulloa
+18th Century	1746	30	Zinc	Marggraf
+18th Century	1751	28	Nickel	Cronstedt
+18th Century	1772	7	Nitrogen	Rutherford
+18th Century	1774	8	Oxygen	Priestley
+18th Century	1774	17	Chlorine	Scheele
+18th Century	1774	25	Manganese	Gahn
+18th Century	1776	1	Hydrogen	Cavendish
+18th Century	1781	42	Molybdenum	Scheele
+18th Century	1783	52	Tellurium	Müller
+18th Century	1783	74	Wolfram	Elhuyar
+18th Century	1787	38	Strontium	Cruikshank et al.
+18th Century	1789	40	Zirconium	Klaproth
+18th Century	1789	92	Uranium	Klaproth
+18th Century	1791	22	Titanium	Gregor
+18th Century	1794	39	Yttrium	Gadolin
+18th Century	1797	24	Chromium	Vauquelin
+18th Century	1798	4	Beryllium	Vauquelin
+19th Century	1801	41	Niobium	Hatchett
+19th Century	1802	73	Tantalum	Ekeberg
+19th Century	1803	45	Rhodium	Wollaston
+19th Century	1803	46	Palladium	Wollaston
+19th Century	1803	58	Cerium	Hisinger et al.
+19th Century	1803	76	Osmium	Tennant
+19th Century	1803	77	Iridium	various
+19th Century	1807	11	Natrium-Sodium	Davy
+19th Century	1807	19	Kalium-Potassium	Davy
+19th Century	1808	5	Borium	Gay-Lussac et al.
+19th Century	1808	12	Magnesium	Davy
+19th Century	1808	20	Calcium	Davy
+19th Century	1808	56	Barium	Davy
+19th Century	1811	53	Iodine	Courtois
+19th Century	1817	3	Lithium	Arfwedson
+19th Century	1817	34	Selenium	Berzelius
+19th Century	1817	48	Cadmium	Strohmeyer
+19th Century	1824	14	Silicium	Berzelius
+19th Century	1825	13	Aluminium	Ørsted
+19th Century	1826	35	Bromium	Balard
+19th Century	1829	90	Thorium	Berzelius
+19th Century	1830	23	Vanadium	Sefström
+19th Century	1839	57	Lanthanium	Mosander
+19th Century	1842	68	Erbium	Mosander
+19th Century	1843	65	Terbium	Mosander
+19th Century	1844	44	Ruthenium	Klaus
+19th Century	1860	55	Cesium	Kirchhoff & Bunsen
+19th Century	1861	37	Rubidium	Bunsen & Kirchhoff
+19th Century	1861	81	Thallium	Crookes
+19th Century	1863	49	Indium	Reich & Richter
+19th Century	1875	31	Gallium	Lecoq de B.
+19th Century	1876	21	Scandium	Nilson
+19th Century	1878	67	Holmium	Soret
+19th Century	1878	70	Ytterbium	Marignac
+19th Century	1879	62	Samarium	Lecoq de B.
+19th Century	1879	69	Thulium	Cleve
+19th Century	1880	64	Gadolinium	Marignac
+19th Century	1885	59	Praseodymium	Auer v.W.
+19th Century	1885	60	Neodymium	Auer v.W.
+19th Century	1886	9	Fluorine	Moissan
+19th Century	1886	32	Germanium	Winkler
+19th Century	1886	66	Dysprosium	Lecoq de B.
+19th Century	1894	18	Argon	Ramsay & Rayleigh
+19th Century	1895	2	Helium	Ramsay et al.
+19th Century	1898	10	Neon	Ramsay & Travers
+19th Century	1898	36	Krypton	Ramsay & Travers
+19th Century	1898	54	Xenon	Ramsay & Travers
+19th Century	1898	84	Polonium	Curie
+19th Century	1898	88	Radium	Curie
+19th Century	1899	89	Actinium	Debierne
+19th Century	1900	86	Radon	Dorn
+20th Century	1901	63	Europium	Eugene Demarcay
+20th Century	1907	71	Lutetium	Urbain & Auer v.W.
+20th Century	1913	91	Protactinium	Hahn et al.
+20th Century	1923	72	Hafnium	Coster & Hevesy
+20th Century	1925	75	Rhenium	Noddack et al.
+20th Century	1937	43	Technetium	Perrier & Segre
+20th Century	1939	87	Francium	Perey
+20th Century	1940	85	Astatium	Corson et al.
+20th Century	1940	93	Neptunium	McMillan et al.
+20th Century	1940	94	Plutonium	Seaborg et al.
+20th Century	1944	95	Americium	Seaborg et al.
+20th Century	1944	96	Curium	Seaborg et al.
+20th Century	1945	61	Promethium	Marinsky et al.
+20th Century	1949	97	Berkelium	Seaborg et al.
+20th Century	1950	98	Californium	Seaborg et al.
+20th Century	1952	99	Einsteinium	Ghiorgio et al.
+20th Century	1952	100	Fermium	Ghiorgio et al.
+20th Century	1955	101	Mendelevium	Seaborg et al.
+20th Century	1957	102	Nobelium	Seaborg et al.
+20th Century	1961	103	Lawrencium	Ghiorso et al.
+20th Century	1964	104	Rutherfordium	JNI
+20th Century	1967	105	Dubnium	JNI
+20th Century	1974	106	Seaborgium	Ghiorso et al.
+20th Century	1981	107	Bohrium	Armbruster et al.
+20th Century	1982	109	Meitnerium	Armbruster et al.
+20th Century	1984	108	Hassium	Armbruster et al.
+20th Century	1994	110	Darmstadtium	Hofmann et al.
+20th Century	1994	111	Roentgenium	Hofmann et al.
+20th Century	1996	112	Copernicium	Hofmann et al.
+20th Century	1998	114	Ununquadium	JNI
+20th Century	1999	116	Ununhexium	Ninov et al.
+20th Century	1999	118	Ununoctium	Ninov et al.

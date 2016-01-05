@@ -1,0 +1,153 @@
+html {
+   font-family: sans-serif;      
+}
+
+h1 {
+   text-align: center;
+}
+
+#periodictable {
+   width: 1048px;
+   height: 600px;
+   margin: 0 auto;
+}
+
+.row {      
+     white-space : nowrap; 
+}
+
+.gridElement {
+     width: 40px;
+     height: 40px;     
+     display: inline-block; 
+     border: 1px solid white;   
+     margin-right: -1px;
+     margin-bottom: -1px;              
+}
+
+.atomicElement {
+     border: 1px solid black;      
+     background: #eeeeff;  
+     stroke: black; 
+     fill: white;            
+}
+
+#details {
+     position: absolute;
+     left: 200px;
+     top: 200px;
+     color: white;
+     background-color: rgba(0,0,0,0.8);
+     padding: 10px;
+     border-radius: 5px;
+     display: none;
+}
+
+#footer {
+     margin: 0 auto;
+     text-align: center;
+}
+
+#footer img {
+     border: none;
+}
+
+#legend {
+	border-top: 1px solid #ddd;
+	margin: 0 auto;
+/*	background: #222;
+	color: white;
+	padding: 10px; */
+}
+
+ul.family div {
+	width: 15px;
+	height: 10px;
+	border: 1px solid #333;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+ul.family {
+	
+}
+
+ul.family li {
+	display: block;
+	display: inline-block;
+	width: 150px;
+}
+
+g.highlight rect {
+    background: #3ca0d6;
+	stroke: #3ca0d6;
+	stroke-width: 3px;
+}
+
+g rect.nofill {
+	fill: white;
+}
+
+
+.closeView {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	margin-top: 10px;
+	font-size: 80%;
+	color:  gray;
+	opacity: 0.4;
+}
+
+.closeView:hover {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	margin-top: 10px;
+	font-size: 80%;
+	color:  gray;
+	opacity: 1.0;	
+}
+
+.settingsIcon {
+	width: 20px; 
+	position: absolute; 
+	left: 15px;
+	top: 15px;
+	display: block;
+	opacity: 0.4;
+}
+
+.settingsIcon:hover {
+	opacity: 1.0;
+	cursor: poi;
+}
+
+#elementDetails {
+    min-height: 100px;
+	height: 200px;
+	display: block;
+	border-top: 1px solid #ddd;
+}
+
+#settings {
+	display: none;
+	position: absolute;
+	top: 5px;
+	width: 800px;	
+	border: 1px solid #333;
+	background: rgba(255,255,255,0.97);
+/*	background: rgba(20,20,20,0.95);*/
+	padding: 3px 15px 20px 15px;
+	border-radius: 5px;
+}
+
+.row {
+	margin-bottom: 5px;
+}
+
+.row label {
+	width:  200px;
+	display: inline-block;
+	left: 300px;;
+}
